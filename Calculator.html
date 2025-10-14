@@ -3,47 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="Calculator.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css" />
   </head>
   <body>
+    <h2 id="heading">Weolcome to my calculator app</h2>
     <div class="calculator">
-      <input type="" placeholder="0" />
-      <div>
-        <button class="operator">AC</button>
-        <button class="operator">DEL</button>
-        <button class="operator">%</button>
-        <button class="operator">/</button>
-      </div>
+      <div class="display"><input type="text" id="inputbox" value="0" /></div>
 
-      <div>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="operator">*</button>
+      <div class="row">
+        <button type="button">AC</button>
+        <button type="button">DEL</button>
+        <button type="button">%</button>
+        <button type="button" class="opr">/</button>
       </div>
-
-      <div>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="operator">-</button>
+      <div class="row">
+        <button type="button">7</button>
+        <button type="button">8</button>
+        <button type="button">9</button>
+        <button type="button" class="opr">X</button>
       </div>
-
-      <div>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="operator">+</button>
+      <div class="row">
+        <button type="button">6</button>
+        <button type="button">5</button>
+        <button type="button">4</button>
+        <button type="button" class="opr">+</button>
       </div>
-      <div>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
-        <button class="equalBtn">=</button>
+      <div class="row">
+        <button type="button">3</button>
+        <button type="button">2</button>
+        <button type="button">1</button>
+        <button type="button" class="opr">-</button>
+      </div>
+      <div class="row">
+        <button type="button" id="plusMinus">&#xB1;</button>
+        <button type="button">0</button>
+        <button type="button">.</button>
+        <button type="button" id="eqBtn">=</button>
       </div>
     </div>
 
-    <script src="Calculator.js"></script>
+
   </body>
 </html>
+
